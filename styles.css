@@ -1,0 +1,52 @@
+h1,h2,h3,h4,ul,li,p{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 1em;
+}
+body{
+    color:#333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    max-width: 100%;
+}
+header{
+    padding: 50px;
+    background-color: cornflowerblue;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+main{
+    max-width: 800px;
+    display: flex;
+    padding: 20px;
+    margin: auto;
+    justify-content: space-between;
+}
+main form{
+    width: 40%;
+}
+
+main article{
+    width: 45%;
+}
+
+label{
+    display: block;
+    margin-bottom: 1em;
+}
+input,textarea,#destination_details_form button{
+    display: block;
+    width: 100%;
+    margin-bottom: 1em;
+    border: solid 1px #666;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.card{
+    padding: 20px;
+    background-color: #efefef;
+    margin-bottom: 20px;
+}
